@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fira Code', 'Courier New', Courier, monospace;
+}
+
+p, a, span {
+  font-size: 1.3em;
+  color: #fff;
+}
+
+.hide {
+  display: none !important;
+}
+
+.text_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.text_box p {
+  max-width: 740px;
+  margin-bottom: 40px;
+  padding: 1.3em;
+  font-size: 1.3em;
+  line-height: 1.4em;
+  color: #141414;
+  background-color: #fff;
+}
+
+.text_box img {
+  max-width: 740px;
+  padding: 0 25px;
+  margin-bottom: 40px;
+}
+
+.text_box .subtitle {
+  display: block;
+  color: #141414;
+  font-size: 1em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#report {
+  -webkit-transition: all 200 ease-in-out;
+  transition: all 200 ease-in-out;
+  padding: 0;
+  position: fixed;
+  z-index: 1;
+}
+
+#report p {
+  margin-top: -1px;
+  position: fixed;
+  color: #fff;
+  background-color: #141414;
+}
+
+#report .command {
+  margin-left: 0;
+}
+
+.report_available {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.report_available p {
+  margin-bottom: 0;
+}
+
+.report_available .command {
+  background-color: #6FAD1E;
+  color: #141414;
+  font-weight: 600;
+}
+
+.text_action {
+  text-align: right;
+}
+
+.text_action span {
+  margin-top: 10px;
+  display: block;
+}
+
+p {
+  margin-bottom: 1.3em;
+}
+
+#commands_list {
+  display: none;
+}
+
+.topic:last-child {
+  margin-bottom: 18px;
+}
+
+.topic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 25px;
+}
+
+.topic .command {
+  font-size: 1.7em;
+}
+
+.bracket {
+  border: 1px solid #fff;
+  padding: 20px;
+  width: 640px;
+}
+
+.bracket p {
+  margin-bottom: 0 !important;
+  background-color: #141414;
+}
+
+.command {
+  color: #6FAD1E;
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+
+.extra_title {
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+.extra_files {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.file {
+  width: 285px;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 25px;
+}
+
+.navigation span {
+  margin: 0 20px;
+  color: #666666;
+}

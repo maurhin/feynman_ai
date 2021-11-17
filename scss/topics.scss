@@ -1,0 +1,136 @@
+@import 'variables';
+@import 'general';
+
+
+.text_box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    p {
+        max-width: 740px;
+        margin-bottom: 40px;
+        padding: 1.3em;
+        font-size: 1.3em;
+        line-height: 1.4em;
+        color: $background_black;
+        background-color: #fff;
+    }
+    img {
+        max-width: 740px;
+        padding: 0 $spacing;
+        margin-bottom: 40px;
+    }
+    .subtitle{
+        display: block;
+        color: $background_black;
+        font-size: 1em;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+}
+
+#report {
+    @include transition(200);
+    padding: 0;
+    position: fixed;
+    z-index: 1;
+    p {
+        margin-top: -1px;
+        position: fixed;
+        color: #fff;
+        background-color: $background_black;
+    }
+    .command {
+        margin-left: 0;
+    }
+}
+
+.report_available {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    p  {
+        margin-bottom: 0;
+    }
+    .command {
+        background-color: $green;
+        color: $background_black;
+        font-weight: 600;
+    }
+}
+
+.text_action {
+    text-align: right;
+    span {
+        margin-top: 10px;
+        display: block;
+    }
+}
+
+
+p {
+    margin-bottom: 1.3em;
+}
+
+
+#commands_list {
+    display: none;
+}
+
+.topic:last-child{
+    margin-bottom: 18px;
+}
+
+.topic {
+    display: flex;
+    align-items: center;
+    margin-bottom: $spacing;
+    .command {
+        font-size: 1.7em;
+    }
+}
+
+.bracket {
+    border: $border;
+    padding: 20px;
+    width: 640px;
+    p{
+        margin-bottom: 0!important;
+        background-color: $background_black;
+    }
+    
+}
+
+.command {
+    color: $green;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+.extra_title {
+    margin-top: $spacing +10;
+    margin-bottom: 10px;
+}
+
+.extra_files {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.file {
+    width: 285px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    margin-bottom: $spacing;
+    span {
+        margin: 0 20px;
+        color: $dim;
+    }
+}

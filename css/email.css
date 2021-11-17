@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fira Code', 'Courier New', Courier, monospace;
+}
+
+p, a, span {
+  font-size: 1.3em;
+  color: #fff;
+}
+
+.hide {
+  display: none !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #141414;
+}
+
+.background {
+  background-color: #141414;
+  text-align: center;
+  padding: 80px 50px;
+  margin: 0 auto;
+}
+
+.background tr, .background td {
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+}
+
+.name {
+  font-size: 1em;
+}
+
+p {
+  color: #fff;
+  font-size: 1.3em;
+  padding: 20px 0;
+}
+
+.brackets {
+  padding: 10px;
+  font-weight: 600;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+}
+
+.message {
+  padding: 80px 0;
+  max-width: 500px;
+}
+
+.message :first-child {
+  margin-bottom: 40px;
+}
+
+.green {
+  color: #6FAD1E;
+}
+
+.border {
+  text-align: initial;
+  border: 1px solid #fff;
+  padding: 30px;
+}
+
+.border p {
+  padding: 10px;
+}

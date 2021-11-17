@@ -1,0 +1,241 @@
+@media (max-width: 1460px) {
+    .right_side {
+        display: none;
+    }
+}
+
+
+body {
+    background-color: $background_black;
+}
+
+.center {
+    width: 600px;
+    height: 800px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+
+.video-center {
+    max-width: 1200px;
+    max-height: 1000px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    video {
+        max-height: 800px;
+    }
+}
+
+
+.name {
+    margin-bottom: 70px;
+}
+
+.text-field {
+    p {
+        display: block;
+        text-align: initial;
+        margin-bottom: $spacing;
+        padding-left: $spacing;
+    }
+}
+
+.console {
+    border: $border;
+    padding: $spacing;
+    padding-top: $spacing;
+    input {
+        color: $green;
+        font-size: 1.3em;
+        border: none;
+        border-bottom: $border;
+        background-color: $background_black;
+        width: 100%;
+        height: 35px;
+    }
+    :focus-visible, :focus, textarea:focus, select:focus {
+        outline: none;
+    }
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        opacity: 1; /* Firefox */
+        color: #fff;
+    }
+    
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: #fff;
+    }
+    
+    ::-ms-input-placeholder { /* Microsoft Edge */
+        color: #fff;
+    }
+}
+
+.border {
+    border: $border;
+}
+
+.green {
+    p {
+        color: $green;
+    }
+}
+
+
+
+// Index
+
+.center_app {
+    max-width: 1920px;
+    max-height: 1080px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    .console {
+        display: flex;
+        align-items: center;
+        p {
+            color: $green;
+            margin-right: 5px;
+        }
+        ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+            opacity: 1; /* Firefox */
+            color: $green;
+        }
+        
+        :-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color: $green;
+        }
+        
+        ::-ms-input-placeholder { /* Microsoft Edge */
+            color: $green;
+        }
+    }
+}
+
+.container {
+    display: flex;
+    padding: $spacing;
+}
+
+.dim {
+    color: $dim;
+}
+
+.left_side {
+    width: 335px;
+    margin-right: $spacing;
+    .ai_frame {
+        height: 290px;
+        border: $border;
+        margin-bottom: $spacing;
+        overflow: hidden;
+        p {
+            font-size: 0.9em;
+            padding: 10px;
+        }
+    }
+    .help {
+        border: $border;
+        padding-bottom: $spacing;
+        height: 566px;
+        p{
+            width: 170px;
+            display: inline-block;
+            padding: $spacing;
+            padding-bottom: 0;
+        }
+        span {
+            display: inline-block;
+            font-weight: 600;
+            color: $background_black;
+            background-color: $green;
+        }
+    }
+}
+
+.main {
+    width: 1127px;
+    margin-right: $spacing;
+    .top {
+        padding: $spacing;
+        border: $border;
+        margin-bottom: $border;
+        border-bottom: none;
+        p {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        .dim {
+            margin-bottom: $spacing;
+        }
+    }
+    .content {
+        padding: $spacing*2;
+        border: $border;
+        margin-bottom: $spacing;
+        height: 570px;
+    }
+    iframe {
+        width: 100%;
+        height: 564px;
+        @include transition(300ms);
+    }
+    iframe::-webkit-scrollbar {  
+        display: none;
+    } 
+    .height_toggle {
+        // display: none;
+        height: 0;
+    } 
+}
+
+.right_side {
+    width: 318px;
+    .eafit {
+        margin-bottom: 40px;
+        border: $border;
+        padding: 15px;
+    }
+    div {
+        p {
+            display: inline-block;
+            vertical-align: middle;
+        }
+        img {
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+    }
+    .servers {
+        padding: 0;
+        border: $border;
+        p {
+            padding: 16px;
+            display: block;
+            color: $dim;
+            border-bottom: $border;
+        }
+    }
+    .servers:last-child {
+        border-bottom: 0;
+    }
+    #mauro {
+        color: #fff;
+    }
+}
+
+

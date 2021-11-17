@@ -1,0 +1,60 @@
+@import "variables";
+@import "general";
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $background_black;
+}
+
+.background {
+    background-color: $background_black;
+    text-align: center;
+    padding: 80px 50px;
+    margin: 0 auto;
+    tr, td {
+        display: block;
+        margin: 0 auto;
+        width: 600px;
+    }
+    
+}
+
+.name {
+    font-size: 1em;
+}
+
+p {
+    color: #fff;
+    font-size: 1.3em;
+    padding: 20px 0;
+}
+
+.brackets {
+    padding: 10px;
+    font-weight: 600;
+    border-right: $border;
+    border-left: $border;
+}
+
+.message {
+    padding: 80px 0;
+    max-width: 500px;
+}
+
+.message :first-child{
+    margin-bottom: 40px;
+}
+
+.green {
+    color: $green; 
+}
+
+.border {
+    text-align: initial;
+    border: $border;
+    padding: 30px;
+    p {
+        padding: 10px;
+    }
+}
